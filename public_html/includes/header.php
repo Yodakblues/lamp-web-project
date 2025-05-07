@@ -2,14 +2,7 @@
 <html>
 <head>
     <title>LAMP Web Project</title>
+    <link rel="stylesheet" type="text/css" href="/lamp-web-project/styles.css">
 </head>
 <body>
-    <header>
-        <h2>My LAMP Web Project</h2>
-        <nav>
-            <a href="index.php">Home</a> |
-            <a href="about.php">About</a> |
-            <a href="contact.php">Contact</a>
-        </nav>
-        <hr>
-    </header>
+<div class="container">

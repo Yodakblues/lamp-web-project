@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
-<h1>Welcome to My LAMP Web Project</h1>
-<p>This is the homepage.</p>
-<?php include 'includes/footer.php'; ?>
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+?>
+
+<?php
+echo "<h1>Welcome to LAMP Web Project</h1>";
+echo "<a href='register.php'>Register</a> | <a href='login.php'>Login</a>";
+?>
